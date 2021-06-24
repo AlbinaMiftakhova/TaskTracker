@@ -1,0 +1,9 @@
+C:\Users\albin\source\repos\TaskTracker\TaskTracker.Database\bin\Debug\netcoreapp3.1\TaskTracker.Database.deps.json
+C:\Users\albin\source\repos\TaskTracker\TaskTracker.Database\bin\Debug\netcoreapp3.1\TaskTracker.Database.dll
+C:\Users\albin\source\repos\TaskTracker\TaskTracker.Database\bin\Debug\netcoreapp3.1\TaskTracker.Database.pdb
+C:\Users\albin\source\repos\TaskTracker\TaskTracker.Database\obj\Debug\netcoreapp3.1\TaskTracker.Database.AssemblyInfoInputs.cache
+C:\Users\albin\source\repos\TaskTracker\TaskTracker.Database\obj\Debug\netcoreapp3.1\TaskTracker.Database.AssemblyInfo.cs
+C:\Users\albin\source\repos\TaskTracker\TaskTracker.Database\obj\Debug\netcoreapp3.1\TaskTracker.Database.csproj.CoreCompileInputs.cache
+C:\Users\albin\source\repos\TaskTracker\TaskTracker.Database\obj\Debug\netcoreapp3.1\TaskTracker.Database.dll
+C:\Users\albin\source\repos\TaskTracker\TaskTracker.Database\obj\Debug\netcoreapp3.1\TaskTracker.Database.pdb
+C:\Users\albin\source\repos\TaskTracker\TaskTracker.Database\obj\Debug\netcoreapp3.1\TaskTracker.Database.csproj.AssemblyReference.cache

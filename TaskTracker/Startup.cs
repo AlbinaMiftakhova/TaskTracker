@@ -1,0 +1,65 @@
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
+using System.Threading.Tasks;
+using TaskTracker.Controllers;
+using TaskTracker.Database.Config;
+using TaskTracker.Repositories;
+using TaskTracker.Repositories.Config;
+using TaskTracker.Swagger;
+
+namespace TaskTracker
+{
+    public class Startup
+    {
+        public Startup(IConfiguration configuration)
+        {
+            Configuration = configuration;
+        }
+
+        public IConfiguration Configuration { get; }
+
+        public void ConfigureServices(IServiceCollection services)
+        {
+            services.ConfigureDb(Configuration);
+            services.ConfigureSwagger();
+            services.ConfigureRepositories();
+            services.AddControllers();
+            services.AddAutoMapper(
+                typeof(TaskRepository).GetTypeInfo().Assembly,
+                typeof(TaskController).GetTypeInfo().Assembly
+            );
+        }
+
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        {
+            if (env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+            }
+
+            app.UseHttpsRedirection();
+
+            app.UseRouting();
+
+            app.UseAuthorization();
+
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+            });
+
+            app.UseOpenApi();
+            app.UseSwaggerUi3();
+        }
+    }
+}

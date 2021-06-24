@@ -1,0 +1,14 @@
+C:\Users\albin\source\repos\TaskTracker\TaskTracker.Repositories\bin\Debug\netcoreapp3.1\TaskTracker.Repositories.deps.json
+C:\Users\albin\source\repos\TaskTracker\TaskTracker.Repositories\bin\Debug\netcoreapp3.1\TaskTracker.Repositories.dll
+C:\Users\albin\source\repos\TaskTracker\TaskTracker.Repositories\bin\Debug\netcoreapp3.1\TaskTracker.Repositories.pdb
+C:\Users\albin\source\repos\TaskTracker\TaskTracker.Repositories\bin\Debug\netcoreapp3.1\TaskTracker.Database.dll
+C:\Users\albin\source\repos\TaskTracker\TaskTracker.Repositories\bin\Debug\netcoreapp3.1\TaskTracker.Model.dll
+C:\Users\albin\source\repos\TaskTracker\TaskTracker.Repositories\bin\Debug\netcoreapp3.1\TaskTracker.Database.pdb
+C:\Users\albin\source\repos\TaskTracker\TaskTracker.Repositories\bin\Debug\netcoreapp3.1\TaskTracker.Model.pdb
+C:\Users\albin\source\repos\TaskTracker\TaskTracker.Repositories\obj\Debug\netcoreapp3.1\TaskTracker.Repositories.csproj.AssemblyReference.cache
+C:\Users\albin\source\repos\TaskTracker\TaskTracker.Repositories\obj\Debug\netcoreapp3.1\TaskTracker.Repositories.AssemblyInfoInputs.cache
+C:\Users\albin\source\repos\TaskTracker\TaskTracker.Repositories\obj\Debug\netcoreapp3.1\TaskTracker.Repositories.AssemblyInfo.cs
+C:\Users\albin\source\repos\TaskTracker\TaskTracker.Repositories\obj\Debug\netcoreapp3.1\TaskTracker.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\albin\source\repos\TaskTracker\TaskTracker.Repositories\obj\Debug\netcoreapp3.1\TaskTracker.Repositories.csproj.CopyComplete
+C:\Users\albin\source\repos\TaskTracker\TaskTracker.Repositories\obj\Debug\netcoreapp3.1\TaskTracker.Repositories.dll
+C:\Users\albin\source\repos\TaskTracker\TaskTracker.Repositories\obj\Debug\netcoreapp3.1\TaskTracker.Repositories.pdb
